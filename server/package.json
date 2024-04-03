@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.7",
+    "@types/mime": "^4.0.0",
+    "@types/ws": "^8.5.10",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --exit-child --transpile-only src/main.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.11.0",
+    "apollo-server-core": "^3.13.0",
+    "apollo-server-express": "^3.13.0",
+    "apollo-server-fastify": "^3.13.0",
+    "argon2": "^0.40.1",
+    "class-validator": "^0.14.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express-jwt": "^8.4.1",
+    "fastify": "^3.0.0",
+    "graphql": "^15.3.0",
+    "graphql-ws": "^5.16.0",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^5.11.0",
+    "reflect-metadata": "^0.2.2",
+    "subscriptions-transport-ws": "^0.11.0",
+    "type-graphql": "^1.1.1",
+    "ws": "^8.16.0"
+  }
+}
